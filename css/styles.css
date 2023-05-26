@@ -1,0 +1,176 @@
+/* Typography */ 
+
+html {
+    font-family: 'Fira Sans', sans-serif; 
+    scroll-behavior: smooth;
+    background-color: #1a1414;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    font-weight: 600; 
+}
+
+p {
+    font-weight: 300; 
+    line-height: 18px; 
+}
+
+a{
+    text-decoration: none;
+    color: #16e58b;
+    font-weight: bold;
+}
+
+/*general links*/
+a:visited{
+    color: #039850;
+}
+
+a:hover{
+    color: #509bf6;
+}
+
+a:active{
+    color: #5ef550;
+}
+
+/* Layout */ 
+
+/*wrapper*/
+.wrapper {
+    width: 80%; 
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.wrapper header{
+    background-color: #16e58b;
+    padding: 2em;
+}
+
+.wrapper header h1,
+.wrapper header h2,
+.wrapper header nav,
+.wrapper header nav a{
+    background-color: #16e58b;
+    padding: 0.5em;
+}
+
+/*nav bar*/
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav a:link{
+    color: #509bf6;
+}
+
+nav a:visited{
+    color: #00634f;
+}
+
+nav a:hover{
+    color: #3f04f4;
+}
+
+nav a:active{
+    color: #feccd5;
+}
+
+
+main section {
+    padding: 60px 20px 0 20px; 
+}
+
+/*about section*/
+#about{
+    padding: 2em;
+}
+
+#about p{
+    padding: 1.2em;
+}
+
+img {
+    max-height: 300px; 
+    width: auto; 
+}
+
+.flex {
+    display:flex;
+    gap: 32px;  
+    
+}
+
+/*playlist section*/
+#playlist{
+    background-color: #f038a7;
+    padding: 2em;
+}
+
+#playlist h2{
+    background-color: #f038a7;
+}
+
+#playlist table{
+    border-collapse: collapse;
+}
+
+#playlist table thead th{
+    width: 30%;
+    padding: 1.3em;
+    background-color: #f038a7;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*this is zebra pattern
+looks better to change alpha of text
+then have a complete block of a different colour*/
+#playlist table tbody tr:nth-of-type(odd){
+    opacity: 0.6;
+}
+
+/*features section*/
+#features{
+    padding: 2em;
+    
+}
+
+#features li{
+    text-align: left;
+    padding: 0.2em;
+}
+
+#features div ul li{
+    list-style: none;
+    
+}
+
+#features table tbody{
+    text-align: left;
+}
+
+#features tbody tr th,
+#features tbody tr td{
+    padding-left: 3.2em;
+}
+
+#features > div {
+    flex: 1; 
+}
+
+/*footer*/
+.wrapper footer{
+    background-color: #5ef550;
+    padding: 1.5em;
+    color: #333;
+}
+
+
+
+
+
